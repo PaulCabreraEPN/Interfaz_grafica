@@ -6,12 +6,12 @@ public class Main {
         String primer_numero= JOptionPane.showInputDialog("Introduzca el primer entero");
         String segundo_numero=JOptionPane.showInputDialog("Introduzca el segundo entero");
 
-        int numero1= Integer.parseInt(primer_numero);
-        int numero2= Integer.parseInt(segundo_numero);
-        int resultados= numero1+numero2;
-        int resultador= numero1-numero2;
-        double resultadod= 5/2;
-        int resultadom= numero1*numero2;
+        double numero1= Double.parseDouble(primer_numero);
+        double numero2= Double.parseDouble(segundo_numero);
+        double resultados= numero1+numero2;
+        double resultador= numero1-numero2;
+        double resultadod= numero1/numero2;;
+        double resultadom= numero1*numero2;
 
 
         JOptionPane.showMessageDialog(null,"El resultado de la primer entero es: "+resultados,"SUMA",JOptionPane.INFORMATION_MESSAGE);
